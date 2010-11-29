@@ -82,6 +82,7 @@
 		B2AE1135126F963300534CF2 /* UIApplication+SSToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AE1133126F963300534CF2 /* UIApplication+SSToolkitAdditions.m */; };
 		B2B3CED81296F637001BAC94 /* SSSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = B2B3CED61296F637001BAC94 /* SSSwitch.h */; };
 		B2B3CED91296F637001BAC94 /* SSSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B3CED71296F637001BAC94 /* SSSwitch.m */; };
+		F12BA15412A404ED00E4D975 /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = F12BA15212A404ED00E4D975 /* Constants.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -162,6 +163,7 @@
 		B2B3CED61296F637001BAC94 /* SSSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSSwitch.h; sourceTree = "<group>"; };
 		B2B3CED71296F637001BAC94 /* SSSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSSwitch.m; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB518D /* libTWToolkit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTWToolkit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F12BA15212A404ED00E4D975 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +229,7 @@
 		B24E9E04121DC29A0085F81E /* SSToolkit */ = {
 			isa = PBXGroup;
 			children = (
+				F12BA15212A404ED00E4D975 /* Constants.h */,
 				B24E9E30121DC29A0085F81E /* SSToolkit.h */,
 				B24E9E0F121DC29A0085F81E /* SSCategories.h */,
 				B2601A76122307B1005506D5 /* Views */,
@@ -403,6 +406,7 @@
 				B2AE1134126F963300534CF2 /* UIApplication+SSToolkitAdditions.h in Headers */,
 				B2AAE65C1281B73E0068EE7F /* SSNavigationController.h in Headers */,
 				B2B3CED81296F637001BAC94 /* SSSwitch.h in Headers */,
+				F12BA15412A404ED00E4D975 /* Constants.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

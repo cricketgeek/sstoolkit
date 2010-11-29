@@ -10,7 +10,7 @@
 #import "UIImage+SSToolkitAdditions.h"
 #import <QuartzCore/QuartzCore.h>
 
-static CGFloat kHUDSize = 172.0;
+static CGFloat kHUDSize = 142.0;
 static CGFloat kIndicatorSize = 40.0;
 
 @implementation SSHUDView
@@ -45,8 +45,9 @@ static CGFloat kIndicatorSize = 40.0;
 	CGContextRef context = UIGraphicsGetCurrentContext();
 	
 	// Draw rounded rectangle
-	CGContextSetRGBFillColor(context, 0.0, 0.0, 0.0, 0.5);
-	CGRect rrect = CGRectMake(0.0, 0.0, kHUDSize, kHUDSize);
+	//CGContextSetRGBFillColor(context, 0.75, 0.53, 0.39, 0.5);
+  CGContextSetRGBFillColor(context, 0.0, 0.0, 0.0, 0.5);
+  CGRect rrect = CGRectMake(0.0, 0.0, kHUDSize, kHUDSize);
 	CGFloat radius = 14.0;
 	CGFloat minx = CGRectGetMinX(rrect);
 	CGFloat midx = CGRectGetMidX(rrect);
@@ -62,6 +63,8 @@ static CGFloat kIndicatorSize = 40.0;
 	CGContextClosePath(context);
 	CGContextFillPath(context);
 	
+  [self setBackgroundColor:COPPER_COLOR];
+  
 	// Image
 	if (_loading == NO) {
 		[[UIColor whiteColor] set];
